@@ -1,0 +1,43 @@
+p {
+    color: red;
+}
+
+#contenedor {
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+
+#cabecera {
+  border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+#menu {
+     float: left;
+    width: 200px;
+    border: 2px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+#contenido {
+    float: left;
+    width: 580px;
+    border: 2px solid black;
+    padding: 15px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    min-height: 200px;
+  
+}
+#pie {
+    clear: both;
+    border: 2px solid black;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+/*use float para poner el menu a la derecha e izquierda, distribuyendo el espacio con widht
