@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e9e9e9;
+}
+
+header{
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.hamburguesa{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.menu{
+    display: none;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+.noticia-principal{
+    background: white;
+    padding: 15px;
+}
+
+.noticia-principal img{
+    width: 100%;
+}
+
+.secundarias{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.secundarias article{
+    background: white;
+    padding: 15px;
+}
+
+.publicidad img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.menu{
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+h2{
+    margin: 15px 0;
+}
+
+p{
+    margin-bottom: 15px;
+}
+.noticia-principal,
+.secundarias article{
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+a{
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
+.noticia-principal h2{
+    font-size: 40px;
+}
+

@@ -1,0 +1,34 @@
+@media(min-width:768px){
+
+    .hamburguesa{
+        display: none;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 15px;
+    }
+
+    .menu a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .contenedor{
+        flex-direction: row;
+    }
+
+    .principal{
+        flex: 3;
+    }
+
+    .publicidad{
+        flex: 1;
+    }
+
+    .secundarias{
+        flex-direction: row;
+    }
+}
