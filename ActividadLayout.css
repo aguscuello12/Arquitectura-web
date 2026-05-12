@@ -1,0 +1,29 @@
+p {
+    color: red;
+}
+
+#contenedor {
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+
+#cabecera {
+   display: none;
+}
+#menu {
+     display: none;
+}
+
+
+#contenido {
+    width: 100%;
+    margin: 0;
+  
+}
+#pie {
+    display: none;
+}
+
+/*use float para poner el menu a la derecha e izquierda, distribuyendo el espacio con widht

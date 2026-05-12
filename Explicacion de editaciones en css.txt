@@ -1,0 +1,58 @@
+Menu a la derecha: #menu {
+
+    float: right;
+
+#contenido {
+
+   margin-left: 0;
+
+    margin-right: 10px;
+
+(cambie float de left a right para que pase el menu de erecha a izquierda y en el contenido sacamos el margen izq y el epsacio va del otro lado
+
+
+
+Eliminar el menú: #menu {
+
+     display: none;
+
+}
+
+
+
+
+
+#contenido {
+
+    width: 100%;
+
+    margin: 0;
+
+  
+
+}
+
+
+
+Con display: none elimine el menu y expandi e contenido al 100% para usar todo el espacio
+
+
+
+Ocultar el pie de página: #pie {
+
+    display: none;
+
+}
+
+con display:none elimine el pie de pag
+
+
+
+Ocultar el encabezado: #cabecera {
+
+   display: none;
+
+}
+
+use display: none para ocultar el encabezado
+
