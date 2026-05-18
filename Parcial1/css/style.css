@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e4e2d3;
+}
+header {
+  background-color: #1e6051;
+  padding: 20px;
+  text-align: center;
+}
+
+.insignia {
+  background-color: white;
+  color: #1e6051;
+  padding: 8px 24px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+.bienvenida {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 24px;
+  border-radius: 8px;
+  padding: 24px;
+  gap: 24px;
+}
+
+.bienvenida img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.texto-bienvenida h3 {
+  color: #c8820a;
+  font-size: 14px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.texto-bienvenida h1 {
+  color: #1e6051;
+  font-size: 32px;
+  margin: 4px 0;
+  text-transform: uppercase;
+}
+
+.texto-bienvenida p {
+  font-size: 14px;
+  color: #333;
+  margin: 4px 0;
+}
+.acciones {
+  padding: 24px;
+  text-align: center;
+}
+
+.acciones h2 {
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #1e6051;
+  margin-bottom: 24px;
+  letter-spacing: 2px;
+}
+
+.tarjetas {
+  display: flex;
+  gap: 16px;
+}
+
+.tarjeta {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  text-align: left;
+}
+
+.tarjeta h4 {
+  text-transform: uppercase;
+  color: #1e6051;
+  font-size: 15px;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.tarjeta p {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.6;
+}
+footer {
+  background-color: #dbd6ae;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  gap: 24px;
+}
+
+.redes h4 {
+  text-transform: uppercase;
+  color: #1e6051;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.redes p {
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.iconos {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.iconos span {
+  font-size: 14px;
+  color: #333;
+}
+
+i {
+  font-size: 32px;
+  margin: 4px;
+}
+
+.fi-brands-facebook { color: #1877f2; }
+.fi-brands-instagram { color: #e1306c; }
+.fi-brands-tik-tok { color: #000000; }
+
+.datos-empresa {
+  text-align: right;
+}
+
+.datos-empresa h4 {
+  text-transform: uppercase;
+  color: #1e6051;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.datos-empresa p {
+  font-size: 13px;
+  color: #333;
+  margin: 4px 0;
+}
+
+.datos-empresa a {
+  color: #1e6051;
+  text-decoration: none;
+}
+.tarjeta img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
